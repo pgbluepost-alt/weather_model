@@ -7,7 +7,7 @@ import requests
 # --- ページ設定 ---
 st.set_page_config(page_title="東京 気温予測AI", page_icon="🌤️", layout="wide")
 
-st.title("🌤️ 東京 気温予測AIアプリ (最高・最低気温 対応版)")
+st.title("🌤️ 名古屋 気温予測AIアプリ (最高・最低気温 対応版)")
 st.write("過去30年分のデータを学習したAIが、「平均・最高・最低」の3つの気温を同時に予測します。")
 
 # --- データの読み込みと特徴量作成 ---
